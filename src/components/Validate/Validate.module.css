@@ -1,0 +1,44 @@
+.mainContainer {
+    grid-area: mainFeature;
+    
+}
+.uploadFiles {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    gap: 200px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+}
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100px;
+    /* cursor: pointer; */
+}
+.inputContainer input {
+    width: 150px;
+    cursor: pointer;
+}
+.inputContainer .inputText {
+    width: 200px;
+}
+.submitButton {
+    height: 30px;
+    width: 80px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submitButton:hover{
+    cursor: pointer;
+    background-color: rgba(252, 55, 55, 0.8);
+    color: white;
+
+}
